@@ -1,0 +1,30 @@
+
+.box {
+    border: 2px solid #ffffff;
+    background-color: rgba(26, 25, 25, 0.678);
+}
+
+.notification {
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+}
+
+.title {
+    color: white;
+}
+
+.my-img {
+    border-radius: 1%;
+}
+
+@media only screen and (min-width: 740px) {
+    .hero {
+        background: url(../../assets/images/moon.jpg) center / cover;
+    }
+}
+
+@media only screen and (max-width: 740px) {
+    .hero {
+        background: url(../../assets/images/moonMobile.jpg) center / cover;
+    }
+}
