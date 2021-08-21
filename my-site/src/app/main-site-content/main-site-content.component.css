@@ -1,7 +1,7 @@
 
 .box {
     border: 2px solid #ffffff;
-    background-color: rgba(26, 25, 25, 0.678);
+    background-color: rgba(26, 25, 25, 0.589);
 }
 
 .notification {
@@ -13,8 +13,29 @@
     color: white;
 }
 
+.right-float{
+    max-width: 250px;
+}
+
 .my-img {
     border-radius: 1%;
+}
+
+.my-foto{
+    max-width: 250px;
+    max-height: 240px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer{
+    background-color: rgb(34, 34, 34);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+hr{
+    margin: 0;
 }
 
 @media only screen and (min-width: 740px) {
