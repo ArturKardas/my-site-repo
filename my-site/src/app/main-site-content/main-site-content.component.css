@@ -1,7 +1,13 @@
+.section{
+    max-width: 1200px;
+    margin: 0 auto 0 auto;
+}
 
 .box {
     border: 2px solid #ffffff;
     background-color: rgba(26, 25, 25, 0.589);
+    box-shadow: 5px 5px 10px 4px rgba(224, 219, 219, 0.397);
+
 }
 
 .notification {
@@ -13,29 +19,42 @@
     color: white;
 }
 
-.right-float{
-    max-width: 250px;
+.left-container {
+    max-width: 280px;
 }
 
 .my-img {
     border-radius: 1%;
 }
 
-.my-foto{
+.my-foto {
     max-width: 250px;
-    max-height: 240px;
+    max-height: 250px;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 70px;
 }
 
-.footer{
+.footer {
     background-color: rgb(34, 34, 34);
     padding-top: 20px;
     padding-bottom: 20px;
 }
 
-hr{
+hr {
     margin: 0;
+}
+
+li {
+    color: white;
+}
+
+a {
+    color: white;
+}
+
+a:focus:hover {
+    color: red;
 }
 
 @media only screen and (min-width: 740px) {
