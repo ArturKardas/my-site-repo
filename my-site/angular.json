@@ -22,7 +22,7 @@
               "src/assets"
             ],
             "styles": [
-              "../my-site/node_modules/bulma/css/bulma.css"
+              "../my-site/src/styles.css"
             ],
             "scripts": [],
             "vendorChunk": true,

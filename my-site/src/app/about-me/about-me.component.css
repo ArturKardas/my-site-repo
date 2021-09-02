@@ -1,0 +1,19 @@
+.column-foto{
+    width: 25%;
+}
+
+.column-text {
+    width: 70%;
+}
+
+.my-img {
+    border-radius: 1%;
+    width: 100%;
+    padding: 0;
+}
+
+.dialog-body {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
