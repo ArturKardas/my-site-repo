@@ -1,9 +1,8 @@
 .section {
-    max-width: 1200px;
-    padding-top: 20px;
-    padding-bottom: 0;
-    width: 100%;
+    max-width: 1100px;
+    padding: 20px 0 0 0;
     margin: 0 auto 0 auto;
+    width: 98%;
 }
 
 .footer {
@@ -12,21 +11,6 @@
     margin-top: auto;
 }
 
-hr {
-    margin: 0;
-}
-
-li {
-    color: white;
-}
-
-a {
-    color: white;
-}
-
-a:focus:hover {
-    color: red;
-}
 
 .main {
     display: flex;
@@ -42,6 +26,11 @@ a:focus:hover {
 }
 
 @media only screen and (max-width: 740px) {
+    .section {
+        width: auto;
+        padding: 20px 10px 0px 10px;
+    }
+
     .main {
         background: url(../../assets/images/moonMobile.jpg) center / cover;
     }

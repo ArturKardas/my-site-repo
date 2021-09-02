@@ -1,9 +1,10 @@
-.column-foto{
-    width: 25%;
+.dialog-body {
+    display: flex;
+    justify-content: space-between;
 }
 
-.column-text {
-    width: 70%;
+.column-foto{
+    width: 25%;
 }
 
 .my-img {
@@ -12,8 +13,11 @@
     padding: 0;
 }
 
-.dialog-body {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
+.contact-box{
+    margin-top: 20px;
 }
+
+.column-text {
+    width: 70%;
+}
+
