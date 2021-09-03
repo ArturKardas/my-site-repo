@@ -1,8 +1,9 @@
 .section {
     max-width: 1100px;
-    padding: 20px 0 0 0;
+    padding: 20px 20px 0 20px;
     margin: 0 auto 0 auto;
-    width: 98%;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .footer {
